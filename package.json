@@ -1,0 +1,16 @@
+{
+  "name": "fzfolder-and-edit",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build jumpdit.ts --compile --outfile jumpdit",
+    "install": "./install.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
